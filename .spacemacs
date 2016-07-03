@@ -32,12 +32,12 @@ values."
      gtags
      cscope
      semantic
-     shell
+     shell :variables shell-default-term-shell "/bin/zsh"
      ;; better-defaults
      emacs-lisp
      git
      markdown
-     ;; org
+     org
      osx
      chinese
      dash
@@ -46,7 +46,7 @@ values."
      ;;        shell-default-height 30
      ;;        shell-default-position 'bottom)
      ;; spell-checking
-     ;; syntax-checking
+     syntax-checking
      version-control
      )
    ;; List of additional packages that will be installed without being
